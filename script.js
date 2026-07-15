@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // 4. ПЕРЕКЛЮЧЕНИЕ КАТЕГОРИЙ В МЕГА-МЕНЮ
   // ============================================
   document.querySelectorAll(".megamenu-categories__item").forEach((item) => {
-    item.addEventListener("click", function () {
+    item.addEventListener("mouseenter", function () {
       document.querySelectorAll(".megamenu-categories__item").forEach((c) => {
         c.classList.remove("active");
       });

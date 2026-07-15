@@ -236,7 +236,7 @@ body.megamenu-open .header-wrapper {
 .megamenu-content__grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 30px 24px;
+  gap: 40px 32px;
 }
 
 .megamenu-subcategory {
@@ -255,12 +255,11 @@ body.megamenu-open .header-wrapper {
 }
 
 .megamenu-subcategory__title {
-  font-size: 13px;
+  margin: 0 0 16px;
+  font-size: 16px;
   font-weight: 700;
-  color: #1f2937;
-  margin: 0 0 12px 0;
+  color: #16181d;
   letter-spacing: 0.3px;
-  text-transform: uppercase;
 }
 
 .megamenu-subcategory__list {
@@ -269,37 +268,16 @@ body.megamenu-open .header-wrapper {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
 
 .megamenu-subcategory__list li a {
+  position: relative;
+  display: inline-block;
   font-size: 13px;
   font-weight: 500;
-  color: #6b7280;
+  color: #363636;
   text-decoration: none;
-  transition: all 0.2s ease;
-  display: inline-block;
-  padding: 2px 0;
-  position: relative;
-}
-
-.megamenu-subcategory__list li a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: #000;
-  transition: width 0.25s ease;
-}
-
-.megamenu-subcategory__list li a:hover {
-  color: #000;
-}
-
-.megamenu-subcategory__list li a:hover::after {
-  width: 100%;
 }
 /* Megamenu End */
 

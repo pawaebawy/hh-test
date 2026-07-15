@@ -186,6 +186,7 @@ body.megamenu-open .header-wrapper {
   display: flex;
   padding: 0 0 40px;
   background-color: #fff;
+  border-top: 1px solid #f1f2f5;
 }
 
 .megamenu-categories {
